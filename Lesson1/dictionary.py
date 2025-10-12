@@ -45,3 +45,27 @@ print(dict2.items())
 print(dict2.keys())
 # Lấy tất cả value: values()
 print(dict2.values())
+
+# Hàm map(function, iterable)
+    # function: hàm xử lý, hàm để biến đổi dữ liệu
+    # iterable: danh sách, chuỗi, tuple, dictionary
+
+# Ví dụ: Cho danh sách tên học sinh
+# Yêu cầu: dùng map() để thêm tên lớp vào sau tên hs (VD: "Minh" => "Minh - PTI18")
+arr = ["Minh", "Khiêm", "Trí", "Hoàng", "Nguyên"]
+
+    # cách 1: Dùng hàm xác định
+def convert_name(student, class_name="PTI18"):
+    return f"{student} - {class_name}"
+arr1 = map(convert_name, arr)
+print(list(arr1))
+
+    # cách 2: Dùng lambda function - hàm ẩn danh / hàm không tên
+arr2 = map(lambda student: f"{student} - PTI18", arr)
+print(list(arr2))
+
+    # Giải thích cách 2:
+arr3 = []
+for student in arr:
+    arr3.append(f"{student} - PTI18")
+print(arr3)
