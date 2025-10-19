@@ -1,0 +1,8 @@
+Mô hình thác nước gồm có 6 giai đoạn sau:
+
+Giai đoạn 1: Require analysis – Xác định và phân tích yêu cầu
+Giai đoạn 2: System Design – Thiết kế hệ thống
+Giai đoạn 3: Implementation – Xây dựng hệ thống
+Giai đoạn 4: Testing – Tích hợp và thử nghiệm
+Giai đoạn 5: Deployment of system – Triển khai hệ thống
+Giai đoạn 6: Maintenance – Bảo trì
