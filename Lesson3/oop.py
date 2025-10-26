@@ -29,3 +29,15 @@ class UserDatabase:
                         password = user_data["password"])
             new_users.append(user)
         self.users_list = new_users
+
+    # Chuyển đổi dữ liệu từ object sang json
+    def items_to_data(self):
+        json_data = list()
+        for user in self.users_list:
+            json_data.append(user.__dict__)
+        return json_data
+    
+    # Hàm hiển thị tất cả
+    def show_all(self):
+        for user in self.users_list:
+            print(user.display_info())
