@@ -1,4 +1,5 @@
 import data_io
+import operator
 
 class Player:
     def __init__(self, id, name, dob, region, club, rating=None, worth=None):
@@ -113,4 +114,29 @@ class PlayerDatabase:
             self.players_list.remove(matched)
             # viết lại file json khi chỉnh sửa đối tượng
             self.players_dict = self.convert_to_dict()
-            data_io.write_json_data(self.players_dict)
+            data_io.write_json_data(self.file_path, self.players_dict)
+
+    # Tìm tên tất cả player có tên là search_name
+    def search_player(self, search_name) -> list[Player]:
+        matched_items = []
+        for player in self.players_list:
+            if search_name.lower() in player.name.lower():
+                matched_items.append(player)
+        return matched_items
+    
+    # Phương thức sắp xếp theo rating
+    def sort_item_by_rating(self, top=None):
+        self.players_list = sorted(self.players_list, 
+                                      key=operator.attrgetter('rating'),
+                                      reverse=True
+                                      )
+        if top:
+            return self.players_list[top]
+        
+    # Phương thức sắp xếp theo name    
+    def sort_item_by_title(self, top=None):
+        self.players_list = sorted(self.players_list, 
+                                      key=operator.attrgetter('name')
+                                      )
+        if top:
+            return self.players_list[top]
