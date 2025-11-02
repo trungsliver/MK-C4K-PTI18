@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Lionel Messi",
+        "dob": "24/06/1987",
+        "region": "Argentina",
+        "club": "Inter Miami",
+        "rating": 9.8,
+        "worth": 38000000.0
+    },
+    {
+        "id": 2,
+        "name": "Cristiano Ronaldo",
+        "dob": "05/02/1985",
+        "region": "Portugal",
+        "club": "Al Nassr",
+        "rating": 9.6,
+        "worth": 40000000.0
+    },
+    {
+        "id": 3,
+        "name": "Kylian Mbappé",
+        "dob": "20/12/1998",
+        "region": "France",
+        "club": "Real Madrid",
+        "rating": 9.5,
+        "worth": 180000000.0
+    },
+    {
+        "id": 4,
+        "name": "Erling Haaland",
+        "dob": "21/07/2000",
+        "region": "Norway",
+        "club": "Manchester City",
+        "rating": 9.4,
+        "worth": 170000000.0
+    },
+    {
+        "id": 5,
+        "name": "Kevin De Bruyne",
+        "dob": "28/06/1991",
+        "region": "Belgium",
+        "club": "Manchester City",
+        "rating": 9.2,
+        "worth": 60000000.0
+    },
+    {
+        "id": 6,
+        "name": "Neymar Jr.",
+        "dob": "05/02/1992",
+        "region": "Brazil",
+        "club": "Al Hilal",
+        "rating": 9.3,
+        "worth": 35000000.0
+    },
+    {
+        "id": 7,
+        "name": "Mohamed Salah",
+        "dob": "15/06/1992",
+        "region": "Egypt",
+        "club": "Liverpool",
+        "rating": 9.1,
+        "worth": 65000000.0
+    },
+    {
+        "id": 8,
+        "name": "Jude Bellingham",
+        "dob": "29/06/2003",
+        "region": "England",
+        "club": "Real Madrid",
+        "rating": 9.4,
+        "worth": 150000000.0
+    },
+    {
+        "id": 9,
+        "name": "Vinícius Jr.",
+        "dob": "12/07/2000",
+        "region": "Brazil",
+        "club": "Real Madrid",
+        "rating": 9.3,
+        "worth": 120000000.0
+    },
+    {
+        "id": 10,
+        "name": "Robert Lewandowski",
+        "dob": "21/08/1988",
+        "region": "Poland",
+        "club": "FC Barcelona",
+        "rating": 9.0,
+        "worth": 25000000.0
+    },
+    {
+        "id": 11,
+        "name": "Harry Kane",
+        "dob": "28/07/1993",
+        "region": "England",
+        "club": "Bayern Munich",
+        "rating": 9.2,
+        "worth": 90000000.0
+    },
+    {
+        "id": 12,
+        "name": "Bukayo Saka",
+        "dob": "05/09/2001",
+        "region": "England",
+        "club": "Arsenal",
+        "rating": 9.1,
+        "worth": 130000000.0
+    },
+    {
+        "id": 13,
+        "name": "Luka Modrić",
+        "dob": "09/09/1985",
+        "region": "Croatia",
+        "club": "Real Madrid",
+        "rating": 8.8,
+        "worth": 10000000.0
+    },
+    {
+        "id": 14,
+        "name": "Antoine Griezmann",
+        "dob": "21/03/1991",
+        "region": "France",
+        "club": "Atletico Madrid",
+        "rating": 8.9,
+        "worth": 25000000.0
+    },
+    {
+        "id": 15,
+        "name": "Pedri",
+        "dob": "25/11/2002",
+        "region": "Spain",
+        "club": "FC Barcelona",
+        "rating": 9.0,
+        "worth": 100000000.0
+    },
+    {
+        "id": 16,
+        "name": "Rodri",
+        "dob": "22/06/1996",
+        "region": "Spain",
+        "club": "Manchester City",
+        "rating": 9.1,
+        "worth": 95000000.0
+    },
+    {
+        "id": 17,
+        "name": "Bruno Fernandes",
+        "dob": "08/09/1994",
+        "region": "Portugal",
+        "club": "Manchester United",
+        "rating": 8.9,
+        "worth": 70000000.0
+    },
+    {
+        "id": 18,
+        "name": "Virgil van Dijk",
+        "dob": "08/07/1991",
+        "region": "Netherlands",
+        "club": "Liverpool",
+        "rating": 9.0,
+        "worth": 40000000.0
+    },
+    {
+        "id": 19,
+        "name": "Lautaro Martínez",
+        "dob": "22/08/1997",
+        "region": "Argentina",
+        "club": "Inter Milan",
+        "rating": 9.0,
+        "worth": 110000000.0
+    },
+    {
+        "id": 20,
+        "name": "Federico Valverde",
+        "dob": "22/07/1998",
+        "region": "Uruguay",
+        "club": "Real Madrid",
+        "rating": 9.1,
+        "worth": 120000000.0
+    }
+]
