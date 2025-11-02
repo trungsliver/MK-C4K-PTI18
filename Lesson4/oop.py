@@ -92,3 +92,25 @@ class PlayerDatabase:
         self.players_dict.append(new_player.__dict__)
         # Ghi vào file json khi thêm đối tượng mới
         data_io.write_json_data(self.file_path, self.players_dict)
+
+    # Tìm tên player và sửa thông tin
+    def edit_player(self, edit_name, new_dict):
+        # Tìm đối tượng
+        matched = self.find_player_by_name(edit_name)
+        # Sửa dối tượng
+        if matched:
+            matched.update(new_dict)
+            # viết lại file json khi chỉnh sửa đối tượng
+            self.players_dict = self.convert_to_dict()
+            data_io.write_json_data(self.file_path, self.players_dict)
+
+    # Tìm player theo tên và xóa thông tin
+    def delete_player(self, delete_name):
+        # Tìm đối tượng
+        matched = self.find_player_by_name(delete_name)
+        # Xóa đối tượng
+        if matched:
+            self.players_list.remove(matched)
+            # viết lại file json khi chỉnh sửa đối tượng
+            self.players_dict = self.convert_to_dict()
+            data_io.write_json_data(self.players_dict)
