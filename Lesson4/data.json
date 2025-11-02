@@ -1,14 +1,5 @@
 [
     {
-        "id": 1,
-        "name": "Lionel Messi",
-        "dob": "24/06/1987",
-        "region": "Argentina",
-        "club": "Inter Miami",
-        "rating": 9.8,
-        "worth": 38000000.0
-    },
-    {
         "id": 2,
         "name": "Cristiano Ronaldo",
         "dob": "05/02/1985",
@@ -19,7 +10,7 @@
     },
     {
         "id": 3,
-        "name": "Kylian Mbappé",
+        "name": "Kylian Mbapp\u00c3\u00a9",
         "dob": "20/12/1998",
         "region": "France",
         "club": "Real Madrid",
@@ -73,7 +64,7 @@
     },
     {
         "id": 9,
-        "name": "Vinícius Jr.",
+        "name": "Vin\u00c3\u00adcius Jr.",
         "dob": "12/07/2000",
         "region": "Brazil",
         "club": "Real Madrid",
@@ -109,7 +100,7 @@
     },
     {
         "id": 13,
-        "name": "Luka Modrić",
+        "name": "Luka Modri\u00c4\u2021",
         "dob": "09/09/1985",
         "region": "Croatia",
         "club": "Real Madrid",
@@ -163,7 +154,7 @@
     },
     {
         "id": 19,
-        "name": "Lautaro Martínez",
+        "name": "Lautaro Mart\u00c3\u00adnez",
         "dob": "22/08/1997",
         "region": "Argentina",
         "club": "Inter Milan",
@@ -178,5 +169,14 @@
         "club": "Real Madrid",
         "rating": 9.1,
         "worth": 120000000.0
+    },
+    {
+        "id": 21,
+        "name": "Duc Khiem",
+        "dob": "17/10/2013",
+        "region": "Vietnam",
+        "club": "Roblox",
+        "rating": 1.0,
+        "worth": 1.0
     }
 ]
