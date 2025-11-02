@@ -58,3 +58,37 @@ class PlayerDatabase:
             json_data.append(player.__dict__)
         return json_data
 
+    # Hiển thị tất cả dữ liệu (từ danh sách object)
+    def show_all(self):
+        for player in self.players_list:
+            player.show_info()
+
+    # Tìm object bằng thuộc tính name
+    def find_player_by_name(self, name):
+        for player in self.players_list:
+            # Tìm thấy
+            if player.name == name:
+                # Trả về dạng object
+                return player
+            # Không tìm thấy
+            else:
+                return False
+            
+    # Thêm 1 player mới
+    def add_player(self, player_dict):
+        # Tạo 1 object - đối tượng mới
+            # id sẽ là số index tiếp theo
+        player_dict["id"] = len(self.players_list) + 1
+        new_player = Player(id = player_dict["id"],
+                            name = player_dict['name'],
+                            dob = player_dict['dob'],
+                            region = player_dict['region'],
+                            club = player_dict['club'],
+                            rating = player_dict['rating'],
+                            worth = player_dict['worth'])
+        # Thêm vào danh sách object
+        self.players_list.append(new_player)
+        # Chỉnh sửa danh sách dict
+        self.players_dict.append(new_player.__dict__)
+        # Ghi vào file json khi thêm đối tượng mới
+        data_io.write_json_data(self.file_path, self.players_dict)
