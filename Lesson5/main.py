@@ -6,7 +6,7 @@ import oop, data_io
 
 # xử lý
 app = QApplication(sys.argv)
-dtb = oop.UserDatabase()
+dtb = oop.UserDatabase("users.json")
 
 class Signup(QMainWindow):
     def __init__(self):
