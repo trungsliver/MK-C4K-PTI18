@@ -31,4 +31,45 @@ class UserDatabase:
                         password = user_data["password"])
             new_users.append(user)
         self.users_list = new_users
+
+    # Chuyển danh sách object => dictionary
+    def convert_to_dict(self):
+        json_data = list()
+        for user in self.users_list:
+            json_data.append(user.__dict__)
+        return json_data
+    
+    # Thêm user mới (đăng ký)
+    def add_user(self, email, password):
+        # User dạng object
+        obj_user = User(email, password)
+        # User dạng dictionary
+        dict_user = {
+            "email": email,
+            "password": password
+        }
+        # Thêm vào danh sách object
+        self.users_list.append(obj_user)
+        # Thêm vào danh sách dictionary
+        self.users_dict.append(dict_user)
+        # Ghi vào file json
+        data_io.write_json_data(self.file_path,self.users_dict)
+    
+    # Tìm object bằng email
+    def find_user_by_email(self, email):
+        for user in self.users_dict:
+            # Tìm thấy
+            if user["email"] == email:
+                return True
+        # Không tìm thấy
+        return False
+    
+    # Check login
+    def check_login(self, email, password):
+        for user in self.users_dict:
+            # Tìm thấy
+            if user["email"] == email and user["password"] == password:
+                return True
+        # Không tìm thấy
+        return False
         
