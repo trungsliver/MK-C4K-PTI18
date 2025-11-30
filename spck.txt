@@ -1,0 +1,33 @@
+Thứ tự thuyết trình
+
+1. Đức Khiêm
+- Ý tưởng: App đọc truyện
+- Slides:
+
+2. Bảo Hoàng
+- Ý tưởng: App ghi chú
+- Slides:
+
+3. Gia Bách
+- Ý tưởng: kiểm tra tốc độ đánh máy
+- Slides:
+
+4. Khôi Nguyên
+- Ý tưởng: Calculator (lưu lịch sử)
+- Slides:
+
+5. Hoàng Minh
+- Ý tưởng: Timer App (đếm ngược, hẹn giờ, giờ các nước)
+- Slides:
+
+6. Ngọc Minh
+- Ý tưởng: quản lý danh bạ
+- Slides:
+
+7. Minh Trí
+- Ý tưởng: Quiz App
+- Slides:
+
+8. Duy An
+- Ý tưởng: App quản lý bài tập
+- Slides:
