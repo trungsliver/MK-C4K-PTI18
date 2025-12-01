@@ -3,7 +3,7 @@ import os
 
 from PyQt6 import uic
 from PyQt6.QtWidgets import QMainWindow, QApplication, QMessageBox, QPushButton
-import speech_recognition as sr
+# import speech_recognition as sr
 import pyttsx3
 
 from models import models
