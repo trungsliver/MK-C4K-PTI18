@@ -1,0 +1,17 @@
+Quy tắc đặt tên folder cho CP1: [TenLop]_[HoTen]_CP2
+Ví dụ: PTI18_BuiDucTrung_CP2
+
+Các file có trong folder:
+- tracnghiem.txt (ghi các đáp án trắc nghiệm vào file này)
+- cp2.ui (làm trên QtDesigner)
+- main.py (viết test)
+- new_data.json
+
+Link đề bài: shorturl.at/7mcGR
+
+Hạn nộp: 11h 
+
+Danh sách trừ điểm
+Mai Hoàng Minh: 0.5
+Bảo Hoàng: 0.5
+Minh Trí: 0.5
