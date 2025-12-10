@@ -15,3 +15,12 @@ Danh sách trừ điểm
 Mai Hoàng Minh: 0.5
 Bảo Hoàng: 0.5
 Minh Trí: 0.5
+
+Điểm:
+Duy An: 9 9 = 9
+Minh Trí: 8 9 = 8.5
+Khôi Nguyên: 8 8 = 8
+Gia Bách: 8 8 = 8
+Hoàng Minh: 8 8 = 8
+Đức Khiêm: 9 9 = 9
+Bảo Hoàng: 7 9 = 8
