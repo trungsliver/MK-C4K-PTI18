@@ -2,31 +2,31 @@ Thứ tự thuyết trình
 
 1. Đức Khiêm
 - Ý tưởng: App đọc truyện
-- Slides:
+- Slides: https://www.canva.com/design/DAG8w4HRfq0/ThENDFV8TDGKsu1_vlgawQ/edit
 
 2. Bảo Hoàng (done base)
 - Ý tưởng: App ghi chú
-- Slides:
+- Slides: https://www.canva.com/design/DAG8w-pq8t0/xO9sCcrfoj33ZLZ-zwe_ug/edit
 
 3. Gia Bách
 - Ý tưởng: kiểm tra tốc độ đánh máy
-- Slides:
+- Slides: 
 
 4. Khôi Nguyên
 - Ý tưởng: Calculator (lưu lịch sử)
-- Slides:
+- Slides: https://www.canva.com/design/DAG8wwTZBgA/q-as_0oHElsy-EuG4YBztA/edit
 
 5. Hoàng Minh (done base)
 - Ý tưởng: Timer App (đếm ngược, hẹn giờ, giờ các nước)
-- Slides:
+- Slides: https://www.canva.com/design/DAG8w3iWmPw/WojsVvY2zFPPsaqWJRXz0A/edit
 
 6. Ngọc Minh
 - Ý tưởng: quản lý danh bạ
-- Slides:
+- Slides: https://www.canva.com/design/DAG8w6LAEPg/tZtGAUJKcSvtoGtM4w304g/edit?ui=eyJBIjp7fX0
 
 7. Minh Trí (done base)
 - Ý tưởng: Quiz App
-- Slides:
+- Slides: https://www.canva.com/design/DAG8w5ISR2M/ziKqy_Hg4kJnQidTHiHRYA/edit
 
 8. Duy An (done base)
 - Ý tưởng: App quản lý bài tập
