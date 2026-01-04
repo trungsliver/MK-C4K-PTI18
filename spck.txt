@@ -10,7 +10,7 @@ Thứ tự thuyết trình
 
 3. Gia Bách
 - Ý tưởng: kiểm tra tốc độ đánh máy
-- Slides: 
+- Slides: https://www.canva.com/design/DAG9bKssucM/xspDZnD5T_2-4QR0sSD7zA/edit?ui=e30
 
 4. Khôi Nguyên
 - Ý tưởng: Calculator (lưu lịch sử)
@@ -30,4 +30,4 @@ Thứ tự thuyết trình
 
 8. Duy An (done base)
 - Ý tưởng: App quản lý bài tập
-- Slides:
+- Slides: https://www.canva.com/design/DAG9a1GL0tE/bBCUT2ePlJNLq_YS5C9auw/edit
